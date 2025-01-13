@@ -1,28 +1,28 @@
 export const faqs = [
   {
     id: 1,
-    question: "01. Discussion",
+    question: "01. Post Production",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.",
+      "Post-production is where raw creativity meets refinement. It’s the stage where your footage is transformed into a polished, compelling story through editing, color grading, sound design, and visual effects. This process enhances the visuals, aligns the narrative, and adds the finishing touches to bring your vision to life. Whether for film, social media, or corporate content, post-production ensures your project leaves a lasting impression.",
   },
   {
     id: 2,
-    question: "02. Design",
+    question: "02. Commercials",
     answer:
-      "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet dignissim pellentesque felis.",
+      "Commercials are powerful storytelling tools designed to captivate audiences and drive brand impact. Through creative visuals, compelling scripts, and attention-grabbing edits, commercials convey messages that resonate with viewers in a matter of seconds. From showcasing products to building emotional connections, they blend creativity and strategy to boost brand recognition and inspire action.",
   },
-  {
-    id: 3,
-    question: "03. Development",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.",
-  },
-  {
-    id: 4,
-    question: "04. Production",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.",
-  },
+  // {
+  //   id: 3,
+  //   question: "03. Development",
+  //   answer:
+  //     "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.",
+  // },
+  // {
+  //   id: 4,
+  //   question: "04. Production",
+  //   answer:
+  //     "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.",
+  // },
 ];
 
 export const faqDataMain = [

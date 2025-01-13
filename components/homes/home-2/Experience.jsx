@@ -7,23 +7,23 @@ export default function Experience() {
       <div className="marquee marquee-style-2">
         <div className="marquee-track marquee-animation-1a">
           <div>10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
+          <div aria-hidden="true">4 Years of experience</div>
+          <div aria-hidden="true">4 Years of experience</div>
+          <div aria-hidden="true">4 Years of experience</div>
+          <div aria-hidden="true">4 Years of experience</div>
+          <div aria-hidden="true">4 Years of experience</div>
+          <div aria-hidden="true">4 Years of experience</div>
+          <div aria-hidden="true">4 Years of experience</div>
+          <div aria-hidden="true">4 Years of experience</div>
+          <div aria-hidden="true">4 Years of experience</div>
+          <div aria-hidden="true">4 Years of experience</div>
+          <div aria-hidden="true">4 Years of experience</div>
+          <div aria-hidden="true">4 Years of experience</div>
+          <div aria-hidden="true">4 Years of experience</div>
+          <div aria-hidden="true">4 Years of experience</div>
+          <div aria-hidden="true">4 Years of experience</div>
+          <div aria-hidden="true">4 Years of experience</div>
+          <div aria-hidden="true">4 Years of experience</div>
         </div>
       </div>
       {/* End Marquee Text Line */}

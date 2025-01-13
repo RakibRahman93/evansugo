@@ -1,4 +1,5 @@
 "use client";
+
 import AnimatedText from "@/components/common/AnimatedText";
 import { Autoplay, EffectFade } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -6,20 +7,24 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const divSections = [
   {
     className: "home-section bg-scroll bg-light-alpha-60",
-    bgImage: "/assets/images/full-width-images/section-bg-7.jpg",
+    bgVideo: "/assets/videos/dior-new.mp4", // Video 1
     darkclassName: "home-section bg-scroll bg-dark-alpha-70",
+    //text: "This is the Dior Video", // Text for this slide
   },
   {
     className: "home-section bg-scroll",
+    bgVideo: "/assets/videos/zaras.mp4", // Video 2
     darkclassName: "home-section bg-scroll bg-dark-alpha-70",
-    bgImage: "/assets/images/full-width-images/section-bg-8.jpg",
+    //text: "Zara Collection", // Text for this slide
   },
   {
     className: "home-section bg-scroll bg-light-alpha-50",
-    bgImage: "/assets/images/full-width-images/section-bg-9.jpg",
+    bgVideo: "/assets/videos/puma.mp4", // Video 3
     darkclassName: "home-section bg-scroll bg-dark-alpha-70",
+    //text: "Puma Sportswear", // Text for this slide
   },
 ];
+
 export default function Hero5({ dark }) {
   return (
     <>
@@ -28,29 +33,61 @@ export default function Hero5({ dark }) {
           spaceBetween={0}
           slidesPerView={1}
           modules={[Autoplay, EffectFade]}
-          autoplay
+          autoplay={{
+            delay: 10000, // 10 seconds delay for each slide
+            disableOnInteraction: false, // Allow autoplay after manual interaction
+          }}
           effect="fade"
           watchSlidesProgress
           resizeObserver
-          className="fullwidth-gallery owl-carousel owl-theme  overflow-hidden position-static"
+          className="fullwidth-gallery owl-carousel owl-theme overflow-hidden position-static"
           style={{
             opacity: 1,
             display: "block",
           }}
         >
-          {/* Team item */}
+          {/* Slide items */}
           {divSections.map((elm, index) => (
             <SwiperSlide className="owl-item" key={index}>
-              <div
-                className={dark ? elm.darkclassName : elm.className}
-                style={{
-                  backgroundImage: `url(${elm.bgImage})`,
-                }}
-              />
+              {elm.bgVideo ? (
+                // If video exists, display it
+                <div
+                  className={dark ? elm.darkclassName : elm.className}
+                  style={{ position: "relative", overflow: "hidden" }}
+                >
+                  <video
+                    className="bg-video"
+                    preload="auto"
+                    autoPlay
+                    muted
+                    loop
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "cover",
+                    }}
+                  >
+                    <source src={elm.bgVideo} type="video/mp4" />
+                  </video>
+                  <div className="bg-video-overlay bg-dark-alpha-70" />
+                  <div className="slide-text">
+                    <h2>{elm.text}</h2>
+                  </div>
+                </div>
+              ) : (
+                // If no video, fallback to image
+                <div
+                  className={dark ? elm.darkclassName : elm.className}
+                  style={{
+                    backgroundImage: `url(${elm.bgImage})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                />
+              )}
             </SwiperSlide>
           ))}
-
-          {/* End Team item */}
+          {/* End Slide items */}
         </Swiper>
       </div>
       {/* End Fullwidth Slider */}
@@ -61,15 +98,15 @@ export default function Hero5({ dark }) {
             <div className="row">
               {/* Home Section Text */}
               <div className="col-md-10 offset-md-1 mb-20 mb-sm-0">
-                <h2
+                {/* <h2
                   className="hs-title-11 mb-30 mb-xs-10 wow fadeInUp"
                   data-wow-duration="1.2s"
                 >
                   Resonance Creative Studio
-                </h2>
+                </h2> */}
                 <h1 className="hs-title-12 mb-50 mb-sm-30">
                   <span className="wow charsAnimIn" data-splitting="chars">
-                    <AnimatedText text="Grow your business with new online experience." />
+                    <AnimatedText text="Shaping the Future of Storytelling with Human Ingenuity and Ai Brilliance" />
                   </span>
                 </h1>
                 <div
@@ -83,7 +120,7 @@ export default function Hero5({ dark }) {
                     animationName: "fadeInUp",
                   }}
                 >
-                  <a
+                  {/* <a
                     href="#about"
                     className={`btn btn-mod btn-border ${
                       dark ? " btn-border-w " : ""
@@ -96,7 +133,7 @@ export default function Hero5({ dark }) {
                         Learn More
                       </span>
                     </span>
-                  </a>
+                  </a> */}
                   <a
                     href="#contact"
                     className={`btn btn-mod btn-large ${
@@ -131,7 +168,7 @@ export default function Hero5({ dark }) {
           {/* End Scroll Down */}
           {/* Status */}
           <div className="hs-status wow fadeInUp" data-wow-offset={0}>
-            Based in London, United Kingdom
+          Based in Liverpool, United Kingdom
           </div>
           {/* End Status */}
         </div>

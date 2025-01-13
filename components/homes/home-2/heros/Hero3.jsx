@@ -64,11 +64,11 @@ export default function Hero3() {
       {/* Home Section Content */}
       <div className="home-content pt-20 pt-md-0 text-center">
         <h2 className="section-title-tiny font-alt mb-40 mb-sm-30 wow fadeInUp">
-          I’m Ronald Smith
+        I’m Evans Ugo
         </h2>
         <h1 className="hs-title-4 font-alt mb-60 mb-sm-40">
           <span className="wow charsAnimIn" data-splitting="chars">
-            Visual &amp; Web Designer Based in Melburn.
+          I Help Brands To Scale Smarter.
           </span>
         </h1>
         <div

@@ -1,6 +1,7 @@
 import Footer2 from "@/components/footers/Footer2";
 
 import Header2 from "@/components/headers/Header2";
+import Hero5 from "@/components/homes/home-1/heros/Hero5";
 
 import Home2 from "@/components/homes/home-2";
 import Hero from "@/components/homes/home-2/heros/Hero";
@@ -28,7 +29,7 @@ export default function Home2BGVideoOnepageDark() {
                 className="home-section light-content scrollSpysection"
                 id="home"
               >
-                <Hero3 />
+                <Hero5 />
               </section>
 
               <Home2 onePage dark />

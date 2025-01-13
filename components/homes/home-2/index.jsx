@@ -1,14 +1,13 @@
-import React from "react";
-import Experience from "./Experience";
+import Image from "next/image";
+import Link from "next/link";
 import Awards from "./Awards";
-import Services from "./Services";
-import Portfolio from "./Portfolio";
-import Testimonials from "./Testimonials";
 import Blog from "./Blog";
 import Contact from "./Contact";
+import Experience from "./Experience";
 import Faq from "./Faq";
-import Link from "next/link";
-import Image from "next/image";
+import Portfolio from "./Portfolio";
+import Services from "./Services";
+import Testimonials from "./Testimonials";
 export default function Home2({ onePage = false, dark = false }) {
   return (
     <>
@@ -25,9 +24,9 @@ export default function Home2({ onePage = false, dark = false }) {
                 <Image
                   width={800}
                   height={1095}
-                  src="/assets/images/demo-bold/section-image-1.jpg"
+                  src="/assets/images/Evans.jpeg"
                   className="w-100 wow scaleOutIn"
-                  alt="Image Description"
+                  alt="Evans Ugo"
                 />
               </div>
             </div>
@@ -43,14 +42,14 @@ export default function Home2({ onePage = false, dark = false }) {
                   <span className="text-outline">About</span>
                 </h2>
                 <p className="section-text mb-60 mb-md-40 mb-sm-30">
-                  <span className="section-title-inline">Who?</span> The role of
-                  the graphic designer in the communication process is that of
-                  encoder or interpreter of&nbsp;the message. They work on the
-                  interpretation, ordering, and presentation of visual messages.
-                  The design work always starts from a client's demand, a demand
-                  that ends up being established linguistically, either orally
-                  or in writing, that is, that graphic design transforms a
-                  linguistic message into a graphic manifestation.
+                  <span className="section-title-inline">Who?</span>Evans is a
+                  creative visionary who specializes in crafting cinematic ad
+                  content and social-first visuals that reflect the style and
+                  storytelling quality of luxury brands. His speculative ad work
+                  includes standout campaigns designed for fashion, beauty, and
+                  lifestyle, With a keen eye for detail and innovation, Evans
+                  transforms concepts into polished, premium-level creative
+                  experiences.
                 </p>
                 <div className="local-scroll">
                   {onePage ? (
@@ -125,9 +124,10 @@ export default function Home2({ onePage = false, dark = false }) {
                 <span className="text-outline">Services</span>
               </h2>
               <p className="section-text mb-60 mb-md-40 mb-sm-30">
-                <span className="section-title-inline">Why?</span> I use the
-                power of design to solve complex problems and cultivate business
-                solutions.
+                <span className="section-title-inline">Why?</span> I go beyond
+                creating ads—I tackle real-world marketing challenges by
+                combining human creativity, data-driven insights, and advanced
+                AI technology.
               </p>
               <div className="local-scroll">
                 {onePage ? (
