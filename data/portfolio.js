@@ -153,8 +153,9 @@ export const portfolios2 = [
   },
   {
     id: 16,
-    mediaUrl: "https://www.youtube.com/watch?v=wopPRfeeCeQ",
+    mediaUrl: "https://youtu.be/4iNMyilmDfg?si=7zKw60A5jPVw8Z7u",
     mediaType: "image",
+    mediaType: "video",
     title: "Rise of Design",
     description:
       "Proin elementum ipsum vel mauris pellentesque accumsan. Nulla in erat ligula vivamus sed egestas elit, sit amet convallis metus.",
@@ -163,7 +164,7 @@ export const portfolios2 = [
   },
   {
     id: 17,
-    mediaUrl: "https://www.youtube.com/watch?v=wopPRfeeCeQ",
+    mediaUrl: "https://youtu.be/zb-iOpct8qQ?si=rg5ppCULEyD5Fkbs",
     mediaType: "video",
     title: "Visual Stranger",
     description:
@@ -173,8 +174,8 @@ export const portfolios2 = [
   },
   {
     id: 18,
-    mediaUrl: "https://www.youtube.com/watch?v=wopPRfeeCeQ",
-    mediaType: "image",
+    mediaUrl: "https://youtu.be/qzGxK6Uiu04?si=mYeSgeX2MJTwvPyD",
+    mediaType: "video",
     title: "Amplitude",
     description:
       "Aliquam tempus nunc nec rutrum malesuada. Proin pulvinar augue quis pharetra vulputate. Sed lacinia convallis orci vitae condimentum.",

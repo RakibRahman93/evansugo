@@ -1,9 +1,10 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { portfolios2 } from "@/data/portfolio";
-import Image from "next/image";
 import Link from "next/link";
-import ReactPlayer from "react-player";
+import dynamic from "next/dynamic";
+
+const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 const filters = [
   { name: "All works", category: "all" },
@@ -14,7 +15,12 @@ const filters = [
 
 export default function Portfolio({ desc }) {
   const [currentCategory, setCurrentCategory] = useState("all");
-  const [filtered, setFiltered] = useState(portfolios2);
+  const [filtered, setFiltered] = useState([]);
+
+  // Initialize filtered portfolio items after the component mounts
+  useEffect(() => {
+    setFiltered(portfolios2);
+  }, []);
 
   useEffect(() => {
     if (currentCategory === "all") {
@@ -35,8 +41,8 @@ export default function Portfolio({ desc }) {
           <div className="works-filter works-filter-bold text-start text-lg-end w-100">
             {filters.map((elm, i) => (
               <a
-                onClick={() => setCurrentCategory(elm.category)}
                 key={i}
+                onClick={() => setCurrentCategory(elm.category)}
                 className={`filter ${
                   currentCategory === elm.category ? "active" : ""
                 }`}
@@ -50,7 +56,7 @@ export default function Portfolio({ desc }) {
 
       <div id="isotope" className="mb-n100 mb-sm-n50">
         {filtered.map((item, index) => (
-          <div key={index} className={`portfolio-2-item mb-100 mix`}>
+          <div key={index} className="portfolio-2-item mb-100 mix">
             <div className="row">
               <div className="col-md-8 mb-sm-30">
                 <div className="portfolio-2-media">
@@ -75,17 +81,20 @@ export default function Portfolio({ desc }) {
               </div>
               <div className="col-md-4">
                 <h3 className="portfolio-2-title font-alt mb-20">
-                  <Link href={`/bold-portfolio-single/${item.id}`}>
+                  {/* <Link href={`/bold-portfolio-single/${item.id}`}>
                     {item.title}
-                  </Link>
+                  </Link> */}
+                
+                    {item.title}
+                 
                 </h3>
                 <p className="portfolio-2-descr">{item.description}</p>
-                <Link
+                {/* <Link
                   href={`/bold-portfolio-single/${item.id}`}
                   className="link-hover-anim underline align-middle"
                 >
                   View Project
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
