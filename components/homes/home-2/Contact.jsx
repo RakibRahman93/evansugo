@@ -23,11 +23,11 @@ export default function Contact({ heading }) {
           </p>
           <div>
             <a
-              href="mailto:ibthemes21@gmail.com"
+              href="mailto:evansugo@yahoo.com"
               className="link-hover-anim align-middle"
               data-link-animate="y"
             >
-              Evansugo@gmail.com
+              Evansugo@ymail.com
             </a>
           </div>
           <div>

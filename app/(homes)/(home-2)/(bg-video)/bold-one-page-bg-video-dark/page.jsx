@@ -10,7 +10,7 @@ import { boldOnepage } from "@/data/menu";
 
 export const metadata = {
   title:
-    "Home 2 BG Video Onepage Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Evans portfolio || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
   description:
     "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
 };
