@@ -145,9 +145,9 @@ export const portfolios2 = [
     id: 15,
     mediaUrl: "https://youtu.be/SUVL1C5kObk?si=vUmcr-RbXvTq95ml",
     mediaType: "video",
-    title: "Medium Scene",
+    title: "Dior Commercial AI Spec Ad | J'adore",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua.",
+      "Shaping the Future of Storytelling with Human Ingenuity and AI Brilliance",
     link: "bold-portfolio-single.html",
     categories: ["development"],
   },
@@ -156,7 +156,7 @@ export const portfolios2 = [
     mediaUrl: "https://youtu.be/iBxn2WMt4nE?si=VJzzD8AuXk8cJUFI",
     mediaType: "image",
     mediaType: "video",
-    title: "Rise of Design",
+    title: "AI Spec Ad' Timeless Morph",
     description:
       "Proin elementum ipsum vel mauris pellentesque accumsan. Nulla in erat ligula vivamus sed egestas elit, sit amet convallis metus.",
     link: "bold-portfolio-single.html",
@@ -166,7 +166,7 @@ export const portfolios2 = [
     id: 17,
     mediaUrl: "https://youtu.be/Ap1tRdXX18Q?si=xbwIbDuz0FuAWMzH",
     mediaType: "video",
-    title: "Visual Stranger",
+    title: "ZARA SPEC AI Ad",
     description:
       "Suspendisse scelerisque convallis nibh. Maecenas bibendum porta mattis. Donec quis nibh porta dolor ultrices bibendum vel quis leo.",
     link: "bold-portfolio-single.html",
@@ -176,7 +176,7 @@ export const portfolios2 = [
     id: 18,
     mediaUrl: "https://youtu.be/n3AAQM-thos?si=nlLRqUZyNKD7378m",
     mediaType: "video",
-    title: "Amplitude",
+    title: "Puma AI Spec AD | Graffiti",
     description:
       "Aliquam tempus nunc nec rutrum malesuada. Proin pulvinar augue quis pharetra vulputate. Sed lacinia convallis orci vitae condimentum.",
     link: "bold-portfolio-single.html",

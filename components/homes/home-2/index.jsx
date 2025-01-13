@@ -177,17 +177,17 @@ export default function Home2({ onePage = false, dark = false }) {
             </div>
           </div>
           {/* Divider */}
-          <div className="page-section">
+          {/* <div className="page-section">
             <hr
               className={`${
                 dark ? "white opacity-015" : "black"
               } black mt-0 mb-0"`}
             />
-          </div>
+          </div> */}
           {/* End Divider */}
           {/* Steps */}
 
-          <Services />
+          {/* <Services /> */}
           {/* End Steps */}
         </div>
       </section>

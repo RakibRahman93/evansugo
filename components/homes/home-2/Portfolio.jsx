@@ -8,9 +8,9 @@ const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 const filters = [
   { name: "All works", category: "all" },
-  { name: "Branding", category: "branding" },
-  { name: "Design", category: "design" },
-  { name: "Development", category: "development" },
+  // { name: "Branding", category: "branding" },
+  // { name: "Design", category: "design" },
+  // { name: "Development", category: "development" },
 ];
 
 export default function Portfolio({ desc }) {
