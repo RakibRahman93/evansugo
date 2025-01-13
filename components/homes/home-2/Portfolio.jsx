@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { portfolios2 } from "@/data/portfolio";
-import Link from "next/link";
 import dynamic from "next/dynamic";
 
 const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
@@ -10,10 +9,10 @@ const filters = [
   { name: "All works", category: "all" },
   // { name: "Branding", category: "branding" },
   // { name: "Design", category: "design" },
-  // { name: "Development", category: "development" },
+  // Add additional categories here if needed
 ];
 
-export default function Portfolio({ desc }) {
+export default function Portfolio() {
   const [currentCategory, setCurrentCategory] = useState("all");
   const [filtered, setFiltered] = useState([]);
 
@@ -22,14 +21,13 @@ export default function Portfolio({ desc }) {
     setFiltered(portfolios2);
   }, []);
 
+  // Filter portfolio items based on the selected category
   useEffect(() => {
     if (currentCategory === "all") {
       setFiltered(portfolios2);
     } else {
       setFiltered(
-        portfolios2.filter((elm) =>
-          elm.categories.includes(currentCategory)
-        )
+        portfolios2.filter((item) => item.categories.includes(currentCategory))
       );
     }
   }, [currentCategory]);
@@ -39,15 +37,15 @@ export default function Portfolio({ desc }) {
       <div className="row mb-90 mb-md-40">
         <div className="col-lg-7 pb-20 pb-md-0 d-flex align-items-end">
           <div className="works-filter works-filter-bold text-start text-lg-end w-100">
-            {filters.map((elm, i) => (
+            {filters.map((filter, index) => (
               <a
-                key={i}
-                onClick={() => setCurrentCategory(elm.category)}
+                key={index}
+                onClick={() => setCurrentCategory(filter.category)}
                 className={`filter ${
-                  currentCategory === elm.category ? "active" : ""
+                  currentCategory === filter.category ? "active" : ""
                 }`}
               >
-                {elm.name}
+                {filter.name}
               </a>
             ))}
           </div>
@@ -69,32 +67,21 @@ export default function Portfolio({ desc }) {
                       style={{ aspectRatio: "16/9" }}
                     />
                   ) : (
-                    <video
+                    <img
                       src={item.mediaUrl}
-                      width="100%"
-                      height="auto"
-                      controls
-                      style={{ maxHeight: "600px" }}
+                      alt={item.title}
+                      style={{ maxWidth: "100%", maxHeight: "600px" }}
                     />
                   )}
                 </div>
               </div>
               <div className="col-md-4">
                 <h3 className="portfolio-2-title font-alt mb-20">
-                  {/* <Link href={`/bold-portfolio-single/${item.id}`}>
-                    {item.title}
-                  </Link> */}
-                
-                    {item.title}
-                 
+                  {item.title}
                 </h3>
-                <p className="portfolio-2-descr">{item.description}</p>
-                {/* <Link
-                  href={`/bold-portfolio-single/${item.id}`}
-                  className="link-hover-anim underline align-middle"
-                >
-                  View Project
-                </Link> */}
+                {item.description && (
+                  <p className="portfolio-2-descr">{item.description}</p>
+                )}
               </div>
             </div>
           </div>

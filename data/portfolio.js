@@ -154,7 +154,6 @@ export const portfolios2 = [
   {
     id: 16,
     mediaUrl: "https://youtu.be/iBxn2WMt4nE?si=VJzzD8AuXk8cJUFI",
-    mediaType: "image",
     mediaType: "video",
     title: "AI Spec Ad' Timeless Morph",
     // description:
@@ -182,6 +181,40 @@ export const portfolios2 = [
     link: "bold-portfolio-single.html",
     categories: ["branding", "design"],
   },
+  {
+    id: 19,
+    mediaUrl: "/assets/images/portfolio/zara-model.png",
+    mediaType: "image",
+    title: "zara",
+    categories: ["design"],
+    // description:
+    //   "Aliquam temp
+  }
+  ,{
+    id: 20,
+    mediaUrl: "/assets/images/portfolio/two-model.png",
+    mediaType: "image",
+    title: "Asos",
+    // description:
+    //   "Aliquam tempus nunc nec rutrum malesuada. Proin pulvinar augue quis pharetra vulputate. Sed lacinia convallis orci vitae condimentum.",
+    link: "bold-portfolio-single.html",
+    categories: ["branding", "design"],
+  },{
+    id: 21,
+    mediaUrl: "/assets/images/portfolio/model-face.png",
+    mediaType: "image",
+    title: "zara",
+    // description:
+    //   "Aliquam temp
+  },
+  {
+    id: 22,
+    mediaUrl: "/assets/images/portfolio/women-land.png",
+    mediaType: "image",
+    title: "Imaginoo",
+    // description:
+    //   "Aliquam temp
+  }
 ];
 
 
