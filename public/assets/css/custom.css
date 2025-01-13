@@ -1,0 +1,100 @@
+.Typewriter,
+.typewrite {
+  display: inline-block;
+}
+.typewrite {
+  margin-left: 10px;
+}
+.dark-mode .dark-white {
+  color: white !important;
+}
+.dark-mode-logo {
+  display: none;
+}
+.dark .dark-mode-logo {
+  display: block;
+}
+.light-mode-logo {
+  display: block;
+}
+.dark .light-mode-logo {
+  display: none;
+}
+@media (min-width: 1025px) {
+  .mn-has-sub:hover + *,
+  .mn-has-sub + *:hover {
+    display: block !important;
+    z-index: 1;
+  }
+}
+
+.fadeInText {
+  animation: animationFadeText 0.5s linear 0s 1;
+}
+@keyframes animationFadeText {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.dark-mode .svg-shape {
+  filter: invert(1) brightness(2); /* Inverts the colors and increases brightness */
+}
+.dark-mode .svg-dark {
+  filter: invert(1) brightness(2); /* Inverts the colors and increases brightness */
+}
+.dark-mode .image-filter {
+  filter: invert(1) brightness(2); /* Inverts the colors and increases brightness */
+}
+html {
+  scroll-behavior: initial !important;
+}
+a {
+  cursor: pointer;
+}
+.mobile-on .desktop-nav {
+  height: fit-content;
+  max-height: 0px;
+  display: block !important;
+  overflow: scroll;
+  transition: 0.6s;
+}
+
+@media (min-width: 1025px) {
+  .mobile-on .mn-sub {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .mobile-on .js-opened .mn-sub.mobile-sub-active {
+    max-height: 1000px;
+  }
+}
+.dark-mode .form .form-tip-2 {
+  color: var(--color-dark-mode-gray-1);
+  background-color: var(--color-dark-2) !important;
+}
+.btn-mod.btn-w:hover,
+.btn-mod.btn-w:focus {
+  background: none !important;
+}
+@media (max-width: 500px) {
+  .team-carousel .owl-prev.owl-prev-testimonial-1 {
+    left: 21px;
+  }
+}
+
+.mn-sub {
+  transition: max-height 0.3s ease-in-out;
+}
+
+.mn-sub.open {
+  max-height: 200px;
+  overflow: auto !important;
+  opacity: 1 !important;
+}
+html {
+  scroll-behavior: smooth !important;
+}

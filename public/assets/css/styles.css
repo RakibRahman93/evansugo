@@ -1,0 +1,22 @@
+@import "./bootstrap.min.css";
+@import "./style.css";
+
+@import "./vertical-rhythm.min.css";
+@import "./magnific-popup.css";
+@import "./owl.carousel.css";
+@import "./splitting.css";
+@import "./YTPlayer.css";
+@import "./demo-main/demo-main.css";
+@import "./demo-bold/demo-bold.css";
+@import "./demo-brutalist/demo-brutalist.css";
+
+@import "./demo-corporate/demo-corporate.css";
+@import "./demo-elegant/demo-elegant.css";
+@import "./demo-fancy/demo-fancy.css";
+@import "./demo-gradient/demo-gradient.css";
+@import "./demo-modern/demo-modern.css";
+@import "./demo-slick/demo-slick.css";
+@import "./demo-strong/demo-strong.css";
+
+@import "./custom.css";
+@import "./style-responsive.css";
