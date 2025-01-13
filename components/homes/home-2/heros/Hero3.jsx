@@ -38,7 +38,7 @@ export default function Hero3() {
           muted
           loop
         >
-          <source src="/assets/videos/video-4.mp4" type="video/mp4" />
+          <source src="/assets/videos/dior-new.mp4" type="video/mp4" />
         </video>
         <div className="bg-video-overlay bg-dark-alpha-30" />
       </div>

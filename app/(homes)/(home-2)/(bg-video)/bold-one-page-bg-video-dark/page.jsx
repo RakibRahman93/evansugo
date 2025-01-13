@@ -29,7 +29,7 @@ export default function Home2BGVideoOnepageDark() {
                 className="home-section light-content scrollSpysection"
                 id="home"
               >
-                <Hero5 />
+                <Hero3 />
               </section>
 
               <Home2 onePage dark />

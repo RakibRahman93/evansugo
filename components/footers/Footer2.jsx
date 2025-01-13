@@ -17,12 +17,12 @@ export default function Footer2() {
         <div className="row">
           {/* Copyright */}
           <div className="col-lg-3 text-center text-lg-start mb-md-50">
-            © IB-Themes {new Date().getFullYear()}.
+            © Evans Ugo {new Date().getFullYear()}.
           </div>
           {/* End Copyright */}
           {/* Social Links */}
           <div className="col-lg-6 fw-social-inline text-center mb-md-40">
-            {socialLinks.map((elm, i) => (
+            {/* {socialLinks.map((elm, i) => (
               <div key={i} className="fw-social-inline-item">
                 <a
                   href={elm.href}
@@ -39,7 +39,7 @@ export default function Footer2() {
                   </span>
                 </a>
               </div>
-            ))}
+            ))} */}
           </div>
           {/* End Social Links */}
           <div
@@ -57,11 +57,11 @@ export default function Footer2() {
       </div>
       {/* Footer Text */}
       <div className="footer-text text-center mt-n10 pb-50">
-        Made with love for great people.
-        <div className="small">
+        Helping Brands To Scale Smarter.
+        {/* <div className="small">
           Read <a href="#">Terms &amp; Conditions</a> and{" "}
           <a href="#">Privacy Policy</a>.
-        </div>
+        </div> */}
       </div>
       {/* End Footer Text */}
     </div>

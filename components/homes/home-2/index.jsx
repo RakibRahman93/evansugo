@@ -98,14 +98,14 @@ export default function Home2({ onePage = false, dark = false }) {
       <div className="page-section overflow-hidden">
         <Experience />
       </div>
-      <section
+      {/* <section
         className={`page-section scrollSpysection  pt-0  ${
           dark ? "bg-dark-1 light-content" : ""
         } `}
         id="awards"
       >
         <Awards />
-      </section>
+      </section> */}
       <hr
         className={`${dark ? "white opacity-015" : "black"} black mt-0 mb-0"`}
       />
@@ -205,25 +205,25 @@ export default function Home2({ onePage = false, dark = false }) {
       <hr
         className={`${dark ? "white opacity-015" : "black"} black mt-0 mb-0"`}
       />
-      <section
+      {/* <section
         className={`page-section  ${dark ? "bg-dark-1 light-content" : ""} `}
       >
         <Testimonials />
-      </section>
-      <hr
+      </section> */}
+      {/* <hr
         className={`${dark ? "white opacity-015" : "black"} black mt-0 mb-0"`}
-      />
-      <section
+      /> */}
+      {/* <section
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""
         } `}
         id="blog"
       >
         <Blog />
-      </section>
-      <hr
+      </section> */}
+      {/* <hr
         className={`${dark ? "white opacity-015" : "black"} black mt-0 mb-0"`}
-      />
+      /> */}
       <section
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""

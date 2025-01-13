@@ -27,7 +27,7 @@ export default function Contact({ heading }) {
               className="link-hover-anim align-middle"
               data-link-animate="y"
             >
-              ibthemes21@gmail.com
+              Evansugo@ymail.com
             </a>
           </div>
           <div>
@@ -36,7 +36,7 @@ export default function Contact({ heading }) {
               className="link-hover-anim align-middle"
               data-link-animate="y"
             >
-              +1 837 652 8800
+              +447405120004
             </a>
           </div>
         </div>
@@ -116,12 +116,12 @@ export default function Contact({ heading }) {
               </div>
               <div className="col-sm-7 d-flex align-items-center">
                 {/* Inform Tip */}
-                <div className="form-tip pt-30 pt-sm-20">
+                {/* <div className="form-tip pt-30 pt-sm-20">
                   <i className="icon-info size-16" />
                   All the fields are required. By sending the form you agree to
                   the <a href="#">Terms &amp; Conditions</a> and{" "}
                   <a href="#">Privacy Policy</a>.
-                </div>
+                </div> */}
               </div>
             </div>
             <div
