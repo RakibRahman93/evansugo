@@ -21,7 +21,7 @@ import Home2BGVideoOnepageDark from "./(homes)/(home-2)/(bg-video)/bold-one-page
 
 export const metadata = {
   title:
-    "Preview Page || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Evans portfolio",
   description:
     "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
 };
