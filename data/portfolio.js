@@ -146,8 +146,8 @@ export const portfolios2 = [
     mediaUrl: "https://youtu.be/SUVL1C5kObk?si=vUmcr-RbXvTq95ml",
     mediaType: "video",
     title: "Dior Commercial AI Spec Ad | J'adore",
-    description:
-      "Shaping the Future of Storytelling with Human Ingenuity and AI Brilliance",
+    // description:
+    //   "Shaping the Future of Storytelling with Human Ingenuity and AI Brilliance",
     link: "bold-portfolio-single.html",
     categories: ["development"],
   },
@@ -157,8 +157,8 @@ export const portfolios2 = [
     mediaType: "image",
     mediaType: "video",
     title: "AI Spec Ad' Timeless Morph",
-    description:
-      "Proin elementum ipsum vel mauris pellentesque accumsan. Nulla in erat ligula vivamus sed egestas elit, sit amet convallis metus.",
+    // description:
+    //   "Proin elementum ipsum vel mauris pellentesque accumsan. Nulla in erat ligula vivamus sed egestas elit, sit amet convallis metus.",
     link: "bold-portfolio-single.html",
     categories: ["branding"],
   },
@@ -167,8 +167,8 @@ export const portfolios2 = [
     mediaUrl: "https://youtu.be/Ap1tRdXX18Q?si=xbwIbDuz0FuAWMzH",
     mediaType: "video",
     title: "ZARA SPEC AI Ad",
-    description:
-      "Suspendisse scelerisque convallis nibh. Maecenas bibendum porta mattis. Donec quis nibh porta dolor ultrices bibendum vel quis leo.",
+    // description:
+    //   "Suspendisse scelerisque convallis nibh. Maecenas bibendum porta mattis. Donec quis nibh porta dolor ultrices bibendum vel quis leo.",
     link: "bold-portfolio-single.html",
     categories: ["design", "development"],
   },
@@ -177,8 +177,8 @@ export const portfolios2 = [
     mediaUrl: "https://youtu.be/n3AAQM-thos?si=nlLRqUZyNKD7378m",
     mediaType: "video",
     title: "Puma AI Spec AD | Graffiti",
-    description:
-      "Aliquam tempus nunc nec rutrum malesuada. Proin pulvinar augue quis pharetra vulputate. Sed lacinia convallis orci vitae condimentum.",
+    // description:
+    //   "Aliquam tempus nunc nec rutrum malesuada. Proin pulvinar augue quis pharetra vulputate. Sed lacinia convallis orci vitae condimentum.",
     link: "bold-portfolio-single.html",
     categories: ["branding", "design"],
   },

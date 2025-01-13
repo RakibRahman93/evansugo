@@ -27,7 +27,7 @@ export default function Contact({ heading }) {
               className="link-hover-anim align-middle"
               data-link-animate="y"
             >
-              Evansugo@ymail.com
+              Evansugo@gmail.com
             </a>
           </div>
           <div>

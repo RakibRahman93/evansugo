@@ -1,5 +1,6 @@
 "use client";
 import { toggleMobileMenu } from "@/utlis/toggleMobileMenu";
+import Link from "next/link";
 import Nav from "./components/Nav";
 
 const links = [
@@ -7,11 +8,9 @@ const links = [
   { href: "#about", text: "About" },
   { href: "#services", text: "Services" },
   { href: "#portfolio", text: "Portfolio" },
-  { href: "#blog", text: "Blog" },
+  // { href: "#blog", text: "Blog" },
   { href: "#contact", text: "Contact" },
 ];
-import Image from "next/image";
-import Link from "next/link";
 
 export default function Header2({ links }) {
   return (
@@ -21,7 +20,8 @@ export default function Header2({ links }) {
               image size for support of retina screens. See details in the template documentation. *) */}
       <div className="nav-logo-wrap local-scroll">
         <Link href="/" className="logo font-alt">
-          <Image
+          <h2 className="dark-mode-logo">Evans</h2>
+          {/* <Image
             src="/assets/images/logo-dark.svg"
             alt="Your Company Logo"
             width={105}
@@ -34,7 +34,7 @@ export default function Header2({ links }) {
             width={105}
             height={34}
             className="dark-mode-logo"
-          />
+          /> */}
         </Link>
       </div>
       {/* Mobile Menu Button */}
