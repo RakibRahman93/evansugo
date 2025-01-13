@@ -143,7 +143,7 @@ export const portfolios1 = [
 export const portfolios2 = [
   {
     id: 15,
-    mediaUrl: "https://www.youtube.com/watch?v=wopPRfeeCeQ",
+    mediaUrl: "https://youtu.be/SUVL1C5kObk?si=vUmcr-RbXvTq95ml",
     mediaType: "video",
     title: "Medium Scene",
     description:
@@ -153,7 +153,7 @@ export const portfolios2 = [
   },
   {
     id: 16,
-    mediaUrl: "https://youtu.be/4iNMyilmDfg?si=7zKw60A5jPVw8Z7u",
+    mediaUrl: "https://youtu.be/iBxn2WMt4nE?si=VJzzD8AuXk8cJUFI",
     mediaType: "image",
     mediaType: "video",
     title: "Rise of Design",
@@ -164,7 +164,7 @@ export const portfolios2 = [
   },
   {
     id: 17,
-    mediaUrl: "https://youtu.be/zb-iOpct8qQ?si=rg5ppCULEyD5Fkbs",
+    mediaUrl: "https://youtu.be/Ap1tRdXX18Q?si=xbwIbDuz0FuAWMzH",
     mediaType: "video",
     title: "Visual Stranger",
     description:
@@ -174,7 +174,7 @@ export const portfolios2 = [
   },
   {
     id: 18,
-    mediaUrl: "https://youtu.be/qzGxK6Uiu04?si=mYeSgeX2MJTwvPyD",
+    mediaUrl: "https://youtu.be/n3AAQM-thos?si=nlLRqUZyNKD7378m",
     mediaType: "video",
     title: "Amplitude",
     description:
