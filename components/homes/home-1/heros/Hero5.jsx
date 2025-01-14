@@ -7,19 +7,19 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const divSections = [
   {
     className: "home-section bg-scroll bg-light-alpha-60",
-    bgVideo: "/assets/videos/dior-new.mp4", // Video 1
+    bgImage: "/assets/images/portfolio/two-model.png", // Video 1
     darkclassName: "home-section bg-scroll bg-dark-alpha-70",
     //text: "This is the Dior Video", // Text for this slide
   },
   {
     className: "home-section bg-scroll",
-    bgVideo: "/assets/videos/zaras.mp4", // Video 2
+    bgImage: "/assets/images/portfolio/women-land.png", // Video 2
     darkclassName: "home-section bg-scroll bg-dark-alpha-70",
     //text: "Zara Collection", // Text for this slide
   },
   {
     className: "home-section bg-scroll bg-light-alpha-50",
-    bgVideo: "/assets/videos/puma.mp4", // Video 3
+    bgImage: "/assets/images/portfolio/zara-model.png", // Video 3
     darkclassName: "home-section bg-scroll bg-dark-alpha-70",
     //text: "Puma Sportswear", // Text for this slide
   },
@@ -49,42 +49,15 @@ export default function Hero5({ dark }) {
           {/* Slide items */}
           {divSections.map((elm, index) => (
             <SwiperSlide className="owl-item" key={index}>
-              {elm.bgVideo ? (
-                // If video exists, display it
-                <div
-                  className={dark ? elm.darkclassName : elm.className}
-                  style={{ position: "relative", overflow: "hidden" }}
-                >
-                  <video
-                    className="bg-video"
-                    preload="auto"
-                    autoPlay
-                    muted
-                    loop
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "cover",
-                    }}
-                  >
-                    <source src={elm.bgVideo} type="video/mp4" />
-                  </video>
-                  <div className="bg-video-overlay bg-dark-alpha-70" />
-                  <div className="slide-text">
-                    <h2>{elm.text}</h2>
-                  </div>
-                </div>
-              ) : (
-                // If no video, fallback to image
-                <div
-                  className={dark ? elm.darkclassName : elm.className}
-                  style={{
-                    backgroundImage: `url(${elm.bgImage})`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                  }}
-                />
-              )}
+              <div
+                className={dark ? elm.darkclassName : elm.className}
+                style={{
+                  backgroundImage: `url(${elm.bgImage})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                }}
+              />
+              )
             </SwiperSlide>
           ))}
           {/* End Slide items */}
@@ -168,7 +141,7 @@ export default function Hero5({ dark }) {
           {/* End Scroll Down */}
           {/* Status */}
           <div className="hs-status wow fadeInUp" data-wow-offset={0}>
-          Based in Liverpool, United Kingdom
+            Based in Liverpool, United Kingdom
           </div>
           {/* End Status */}
         </div>
