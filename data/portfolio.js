@@ -185,7 +185,7 @@ export const portfolios2 = [
     id: 19,
     mediaUrl: "/assets/images/portfolio/zara-model.png",
     mediaType: "image",
-    title: "zara",
+    //title: "zara",
     categories: ["design"],
     // description:
     //   "Aliquam temp
@@ -194,7 +194,7 @@ export const portfolios2 = [
     id: 20,
     mediaUrl: "/assets/images/portfolio/two-model.png",
     mediaType: "image",
-    title: "Asos",
+    //title: "Asos",
     // description:
     //   "Aliquam tempus nunc nec rutrum malesuada. Proin pulvinar augue quis pharetra vulputate. Sed lacinia convallis orci vitae condimentum.",
     link: "bold-portfolio-single.html",
@@ -203,7 +203,7 @@ export const portfolios2 = [
     id: 21,
     mediaUrl: "/assets/images/portfolio/model-face.png",
     mediaType: "image",
-    title: "zara",
+    //title: "zara",
     // description:
     //   "Aliquam temp
   },
@@ -211,7 +211,7 @@ export const portfolios2 = [
     id: 22,
     mediaUrl: "/assets/images/portfolio/women-land.png",
     mediaType: "image",
-    title: "Imaginoo",
+    //title: "Imaginoo",
     // description:
     //   "Aliquam temp
   }
