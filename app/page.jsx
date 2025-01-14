@@ -23,7 +23,7 @@ export const metadata = {
   title:
     "Evans portfolio",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Evans portfolio",
 };
 
 export default function Home() {

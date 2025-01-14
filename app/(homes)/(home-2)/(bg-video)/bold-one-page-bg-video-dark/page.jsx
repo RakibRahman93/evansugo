@@ -10,9 +10,9 @@ import { boldOnepage } from "@/data/menu";
 
 export const metadata = {
   title:
-    "Evans portfolio || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Evans portfolio",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "I HELP BRANDS TO SCALE SMARTER.",
 };
 export default function Home2BGVideoOnepageDark() {
   return (
