@@ -7,19 +7,19 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const divSections = [
   {
     className: "home-section bg-scroll bg-light-alpha-60",
-    bgImage: "/assets/images/portfolio/two-model.png", // Video 1
+    bgImage: "/assets/images/black-panther.jpg", // Video 1
     darkclassName: "home-section bg-scroll bg-dark-alpha-70",
     //text: "This is the Dior Video", // Text for this slide
   },
   {
     className: "home-section bg-scroll",
-    bgImage: "/assets/images/portfolio/women-land.png", // Video 2
+    bgImage: "/assets/images/zara.png", // Video 2
     darkclassName: "home-section bg-scroll bg-dark-alpha-70",
     //text: "Zara Collection", // Text for this slide
   },
   {
     className: "home-section bg-scroll bg-light-alpha-50",
-    bgImage: "/assets/images/portfolio/zara-model.png", // Video 3
+    bgImage: "/assets/images/three.jpg", // Video 3
     darkclassName: "home-section bg-scroll bg-dark-alpha-70",
     //text: "Puma Sportswear", // Text for this slide
   },
@@ -34,7 +34,7 @@ export default function Hero5({ dark }) {
           slidesPerView={1}
           modules={[Autoplay, EffectFade]}
           autoplay={{
-            delay: 10000, // 10 seconds delay for each slide
+            delay: 5000, // 5 seconds delay for each slide
             disableOnInteraction: false, // Allow autoplay after manual interaction
           }}
           effect="fade"
@@ -55,11 +55,29 @@ export default function Hero5({ dark }) {
                   backgroundImage: `url(${elm.bgImage})`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
+                  position: "relative", // Ensure the overlay is positioned correctly
+                  overflow: "hidden",
                 }}
-              />
-              )
+              >
+                {/* Dark Overlay */}
+                <div
+                  className="bg-overlay"
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    backgroundColor: dark
+                      ? "rgba(0, 0, 0, 0.7)"
+                      : "rgba(0, 0, 0, 0.4)", // Adjusted dark overlay
+                    zIndex: 1, // Ensure the overlay is above the image
+                  }}
+                />
+              </div>
             </SwiperSlide>
           ))}
+
           {/* End Slide items */}
         </Swiper>
       </div>
