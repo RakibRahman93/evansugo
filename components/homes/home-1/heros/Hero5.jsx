@@ -89,15 +89,15 @@ export default function Hero5({ dark }) {
             <div className="row">
               {/* Home Section Text */}
               <div className="col-md-10 offset-md-1 mb-20 mb-sm-0">
-                {/* <h2
+                <h2
                   className="hs-title-11 mb-30 mb-xs-10 wow fadeInUp"
                   data-wow-duration="1.2s"
                 >
-                  Resonance Creative Studio
-                </h2> */}
+                  Hi!, I am Evans.
+                </h2>
                 <h1 className="hs-title-12 mb-50 mb-sm-30">
                   <span className="wow charsAnimIn" data-splitting="chars">
-                    <AnimatedText text="Shaping the Future of Storytelling with Human Ingenuity and Ai Brilliance" />
+                    <AnimatedText text="I HELP BRANDS TO SCALE SMARTER." />
                   </span>
                 </h1>
                 <div
